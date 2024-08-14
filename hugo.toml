@@ -1,0 +1,24 @@
+baseURL = 'https://nqmetke.dev/'
+languageCode = 'en-us'
+title = 'Nathanael Metke'
+copyright = "Nathanael Metke (CC BY 4.0)"
+theme = "hugo-bearcub"
+[permalinks]
+  posts = "/:slug"
+[params]
+    description = "A website for Nathanael Metke"
+    themeStyle = "herman"
+
+[params.author]
+    name = "Nathanael Metke" # Your name as shown in the RSS feed metadata
+    email = "nqmetke@gmail.com.com" # Added to the footer so readers can reply to posts
+[languages]
+  [languages.en]
+    title = "Nathanael Metke"
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with Bear Cub"
+
+
